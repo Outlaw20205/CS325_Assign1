@@ -1,7 +1,4 @@
-# CS325_Assign1 - Ethan Lawrence - 2/5/25
-
-## BattingAverage.py
-<code> def findMedian(func):
+def findMedian(func):
     def wrapper(*args):
         median = args[0]
         median.sort()
@@ -24,6 +21,4 @@ def findAvg(playerBA):
 
 playersAvg = [.301, .273, .226, .260, .211, .273, .197, .248, .125]
 
-findAvg(playersAvg) </code>
-
-### ![This is Cooper](./Cooper.jpg)
+findAvg(playersAvg)
